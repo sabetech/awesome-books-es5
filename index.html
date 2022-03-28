@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js" defer type="module"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Awesome Books</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Awesome Books</div>
+            <ul>
+                <li><a id="list" href="#list" class="nav-link"> List </a></li>
+                <li><a id="add-new" href="#add-new" class="nav-link"> Add New </a></li>
+                <li><a id="contact" href="#contact" class="nav-link"> Contact </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <span class="date">Date:</span>
+        
+        <section id="book-list-content" class="wrapper">
+            <h1>All awesome books</h1>
+            <img src="./images/books.png" alt="">
+            <ul class="books">
+
+            </ul>
+        </section>
+
+        <section id="add-book" class="wrapper hidden">
+            <form id="books-form">
+                <h1>Add new book</h1>
+                <span id="message"></span>
+                <img src="./images/add.png" alt="">
+                <input type="text" name="title" id="title" placeholder="Title" required>
+                <input type="text" name="author" id="author" placeholder="Author" required>
+                <button type="submit">Add</button>
+            </form>
+        </section>
+
+        <section id="contact-us" class="wrapper hidden">
+            <div class="contact-content">
+                <h1>Contact Informations</h1>
+                <img src="./images/contact.png" alt="">
+                <div class="contact-us">
+                    <div>Do have any question or you just want to say "Hello" ? <br>
+                        You can reach out to us
+                        <ul>
+                            <li>
+                                our email : <span> anicetmurhula20@gmail.com</span>
+                            </li>
+                            <li>Our phone number: <span>+250786094247 / +23354 823 8146</span></li>
+                            <li>Our Address streethome : <span>Kifgali, <br> Accra</span></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        Copyright by 
+    </footer>
+    
+</body>
