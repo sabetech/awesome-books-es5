@@ -4,6 +4,8 @@
 
 > This project is a re-engineering of our previous project, AwesomeBooks, to make use of ES6 modules and other great ES6 features like arrow functions etc.
 
+![Alt text](/images/screen-shot.png "Optional Title")
+
 ## Built With
 
 - HTML/CSS/JS
